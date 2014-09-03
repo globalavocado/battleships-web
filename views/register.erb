@@ -1,0 +1,10 @@
+<html>
+<p>What's your name?</p>
+<form action='/register' method="post">
+	 		<input type="text" name="name">
+	 		<input type="submit" id="submitbutton">
+	 	</form>
+<div id='flash' class='notice'>
+	<%= flash[:notice] %>
+</div>
+</html>
